@@ -118,7 +118,7 @@ public class NSunits {
                 reload = 150f;
                 recoil = 4f;
                 shake = 2f;
-                shootSound = Sounds.shootBig;
+                shootSound = Sounds.shootSalvo;
 
                 bullet = new BasicBulletType(1.6f, 10) {{
                     width = 9f;
@@ -180,7 +180,7 @@ public class NSunits {
                 x = 5.5f;
                 layerOffset = -0.5f;
                 reload = 100;
-                shootSound = Sounds.laser;
+                shootSound = Sounds.shootLancer;
                 soundPitchMax = 0.8f;
                 ejectEffect = baseunitFx.planumSmoke;
                 soundPitchMin = 0.65f;
@@ -322,7 +322,7 @@ public class NSunits {
                 mirror = false;
                 reload = 60f;
                 rotate = true;
-                shootSound = Sounds.shootAlt;
+                shootSound = Sounds.shootBreach;
                 x = 0;
                 y = 0;
                 shoot.shots = 3;
@@ -363,7 +363,7 @@ public class NSunits {
 
                 recoil = 3f;
                 recoilTime = 50f;
-                shootSound = Sounds.shootBig;
+                shootSound = Sounds.shootSalvi;
                 soundPitchMax = 0.8f;
                 soundPitchMin = 0.7f;
 
@@ -432,7 +432,7 @@ public class NSunits {
 
                 recoil = 1f;
                 recoilTime = 20f;
-                shootSound = Sounds.shootAlt;
+                shootSound = Sounds.shootBreach;
                 x = -10;
                 y = -3;
                 shoot.shots = 5;
@@ -519,7 +519,7 @@ public class NSunits {
                 rotateSpeed = 1.2f;
                 layerOffset = 0.001f;
                 shootY = 7;
-                shootSound = Sounds.shootBig;
+                shootSound = Sounds.shootSpectre;
                 shake = 1.9f;
                 shoot = new ShootMulti(
                         new ShootBarrel() {{
@@ -1035,7 +1035,7 @@ public class NSunits {
                 shootY = -0.4f;
                 recoilTime = 60;
                 bullet = new BulletType() {{
-                    shootSound = Sounds.lasershoot;
+                    shootSound = Sounds.shootLancershoot;
                     shootEffect = Fx.sparkShoot;
                     hitEffect = Fx.pointHit;
                     color = Color.valueOf("d297e1");
@@ -1298,7 +1298,7 @@ public class NSunits {
             weapons.add(new Weapon(name + "-gun"){{
                 x = 6.15f;
                 y = -0.15f;
-                shootSound = Sounds.shootBig;
+                shootSound = Sounds.shootSpectre;
                 reload = 15;
                 recoil = 2;
                 top = false;
@@ -2057,7 +2057,7 @@ public class NSunits {
                 ejectEffect = Fx.none;
                 recoil = 2f;
                 rotate = true;
-                shootSound = Sounds.lasershoot;
+                shootSound = Sounds.shootLancershoot;
                 controllable = false;
                 autoTarget = true;
                 bullet = new LaserBoltBulletType(5.2f, 9) {{
@@ -2076,7 +2076,7 @@ public class NSunits {
                 ejectEffect = Fx.none;
                 recoil = 2f;
                 rotate = true;
-                shootSound = Sounds.lasershoot;
+                shootSound = Sounds.shootLancershoot;
                 controllable = false;
                 autoTarget = true;
                 bullet = new LaserBoltBulletType(5.2f, 13) {{
@@ -2093,7 +2093,7 @@ public class NSunits {
                 y = 6.2f;
                 recoil = 2f;
                 rotate = true;
-                shootSound = Sounds.laser;
+                shootSound = Sounds.shootLancer;
                 bullet = new LaserBulletType(30) {{
                     colors = new Color[]{Color.valueOf("8deebb"), Color.white};
                     lifetime = 10;
