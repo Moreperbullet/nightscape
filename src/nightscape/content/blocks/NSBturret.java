@@ -846,7 +846,7 @@ public class NSBturret {
                         lowAltitude = true;
                         loopSound = Sounds.loopMissileTrail;
                         loopSoundVolume = 0.6f;
-                        deathSound = Sounds.largeExplosion;
+                        deathSound = Sounds.explosionMissile;
                         targetAir = false;
 
                         fogRadius = 1f;

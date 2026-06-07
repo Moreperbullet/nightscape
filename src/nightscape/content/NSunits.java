@@ -1578,7 +1578,7 @@ public class NSunits {
                 rotationLimit = 45f;
                 bullet = new BasicBulletType(5, 12){{
                     lifetime = 30;
-                    hitSound = Sounds.shotgun;
+                    hitSound = Sounds.shootFuse;
                     width = 12;
                     height = 19;
                     frontColor = Color.valueOf("ffd8d1");
@@ -1780,7 +1780,7 @@ public class NSunits {
                 y = 0;
                 x = -5;
                 top = false;
-                shootSound = Sounds.bolt;
+                shootSound = Sounds.shootLocus;
                 reload = 15;
                 rotationLimit = 20;
                 rotate = true;
