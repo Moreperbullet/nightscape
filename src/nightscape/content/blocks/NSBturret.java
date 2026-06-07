@@ -481,7 +481,7 @@ public class NSBturret {
             recoil = 1f;
             shootY = 0f;
             reload = 60f;
-            shootSound = Sounds.laser;
+            shootSound = Sounds.shootLancer;
             range = 80;
             health = 750;
             rotateSpeed = 4f;
@@ -543,7 +543,7 @@ public class NSBturret {
             rotateSpeed = 1.6f;
             reload = 10f;
             inaccuracy = 1f;
-            shootSound = Sounds.laser;
+            shootSound = Sounds.shootLancer;
             range = 150;
             unitSort = UnitSorts.weakest;
             heatingMax = 280;

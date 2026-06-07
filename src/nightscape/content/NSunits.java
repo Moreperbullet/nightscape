@@ -807,7 +807,7 @@ public class NSunits {
             trailLength = 14;
             missileAccelTime = 10f;
             lowAltitude = true;
-            loopSound = Sounds.missileTrail;
+            loopSound = Sounds.loopMissileTrail;
             loopSoundVolume = 0.6f;
             deathSound = Sounds.largeExplosion;
             targetAir = true;
@@ -1920,7 +1920,7 @@ public class NSunits {
                 mirror = false;
                 shootY = 0;
                 repairSpeed = 0.3f;
-                shootSound = Sounds.sap;
+                shootSound = Sounds.shootSap;
                 bullet = new BulletType() {{
                     maxRange = 80f;
                 }};
@@ -2162,7 +2162,7 @@ public class NSunits {
                 showStatSprite = false;
                 reload = 30f;
                 x = 0;
-                shootSound = Sounds.missile;
+                shootSound = Sounds.shootMissile;
                 soundPitchMax = 1.5f;
                 soundPitchMin = 1.2f;
                 bullet = new MissileBulletType(3, 18) {{
@@ -2222,7 +2222,7 @@ public class NSunits {
                 x = 0;
                 shoot.shots = 3;
                 shoot.shotDelay = 5;
-                shootSound = Sounds.missile;
+                shootSound = Sounds.shootMissile;
                 bullet = new MissileBulletType(4, 11) {{
                     lifetime = 30;
                     status = NSstatus.overCharged;
