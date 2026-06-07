@@ -68,7 +68,6 @@ public class NSplanets {
             accessible = true;
             alwaysUnlocked = true;
             landCloudColor = Color.valueOf("625160");
-            itemWhitelist = chordaItems;
             unlockedOnLand.add(NSBother.coreSatellite);
             ruleSetter = r -> {
                 r.waveTeam = NSTeams.sanc;
@@ -141,7 +140,6 @@ public class NSplanets {
             accessible = true;
             alwaysUnlocked = true;
             landCloudColor = Color.valueOf("625160");
-            itemWhitelist = chordaItems;
             unlockedOnLand.add(NSBother.coreSatellite);
             ruleSetter = r -> {
                 r.waveTeam = Team.malis;
