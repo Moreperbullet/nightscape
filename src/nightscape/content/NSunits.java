@@ -1262,7 +1262,7 @@ public class NSunits {
             weapons.add(new Weapon(name + "-slag"){{
                 x = 5;
                 y = -0.5f;
-                shootSound = Sounds.mud;
+                shootSound = Sounds.stepMud;
                 reload = 60;
                 shoot.shots = 4;
                 shoot.shotDelay = 1;
@@ -1403,7 +1403,7 @@ public class NSunits {
             weapons.add(new Weapon(name + "-gun"){{
                 x = 16.6f;
                 y = 0f;
-                shootSound = Sounds.artillery;
+                shootSound = Sounds.shootArtillery;
                 reload = 15;
                 recoilTime = 40;
                 recoil = 3;
@@ -1453,7 +1453,7 @@ public class NSunits {
                 mirror = false;
                 reload = 300;
                 shoot.shots = 20;
-                shootSound = Sounds.mud;
+                shootSound = Sounds.stepMud;
                 shoot.shotDelay = 1;
                 shootStatusDuration = 90;
                 shootStatus = StatusEffects.slow;
@@ -1871,7 +1871,7 @@ public class NSunits {
                 shake = 5;
                 shoot.shotDelay = 30;
                 shoot.shots = 3;
-                shootSound = Sounds.artillery;
+                shootSound = Sounds.shootArtillery;
                 bullet = new ArtilleryBulletType(){{
                     damage = 4;
                     splashDamage = 23;
@@ -1965,7 +1965,7 @@ public class NSunits {
                 reload = 240f;
                 mirror = false;
                 x = 0;
-                shootSound = Sounds.artillery;
+                shootSound = Sounds.shootArtillery;
                 rotate = true;
                 shake = 2f;
                 shootY = 6;
@@ -2057,7 +2057,7 @@ public class NSunits {
                 ejectEffect = Fx.none;
                 recoil = 2f;
                 rotate = true;
-                shootSound = Sounds.shootLancershoot;
+                shootSound = Sounds.shootLaser;
                 controllable = false;
                 autoTarget = true;
                 bullet = new LaserBoltBulletType(5.2f, 9) {{

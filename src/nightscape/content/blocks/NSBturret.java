@@ -251,7 +251,7 @@ public class NSBturret {
                     sprite = "nscape-expans-bullet-big";
                     trailLength = 4;
                     trailWidth = 1f;
-                    hitSound = Sounds.shotgun;
+                    hitSound = Sounds.shootFuse;
                     reloadMultiplier = 0.8f;
                     backColor = trailColor = NSitems.streby.color;
                     fragBullets = 1;
@@ -505,7 +505,7 @@ public class NSBturret {
             drawer = new DrawTurret("cyan-");
             squareSprite = false;
             reload = 90f;
-            shootSound = Sounds.artillery;
+            shootSound = Sounds.shootArtillery;
             shootY = -2f;
             itemCapacity = 15;
 
@@ -844,7 +844,7 @@ public class NSBturret {
                         trailLength = 8;
                         missileAccelTime = 25f;
                         lowAltitude = true;
-                        loopSound = Sounds.missileTrail;
+                        loopSound = Sounds.loopMissileTrail;
                         loopSoundVolume = 0.6f;
                         deathSound = Sounds.largeExplosion;
                         targetAir = false;
@@ -914,7 +914,7 @@ public class NSBturret {
 
             fogRadiusMultiplier = 0.1f;
             coolantMultiplier = 6f;
-            shootSound = Sounds.missileLaunch;
+            shootSound = Sounds.shootScathe;
             soundPitchMin = 0.75f;
             soundPitchMax = 0.9f;
 

@@ -195,7 +195,7 @@ public class NSBproduction {
                     new DrawFlame(Color.valueOf("ffef99")),
                     new DrawHeatInput("-heat")
             );
-            ambientSound = Sounds.smelter;
+            ambientSound = Sounds.loopSmelter;
             ambientSoundVolume = 0.07f;
 
             consumeItems(with(NSitems.tantalum, 2));
@@ -283,7 +283,7 @@ public class NSBproduction {
             );
             craftTime = 60f;
             size = 3;
-            ambientSound = Sounds.hum;
+            ambientSound = Sounds.loopHum;
             ambientSoundVolume = 0.06f;
             hasLiquids = true;
             boostScale = 1f / 9f;

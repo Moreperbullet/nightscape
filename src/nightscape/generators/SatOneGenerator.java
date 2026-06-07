@@ -46,8 +46,6 @@ public class SatOneGenerator extends PlanetGenerator {
     @Override
     public void getColor(Vec3 position, Color out){
         Block block = getBlock(position);
-        //replace salt with sand color
-        if(block == Blocks.salt) return Blocks.sand.mapColor;
         out.set(block.mapColor).a(1f - block.albedo);
     }
 
