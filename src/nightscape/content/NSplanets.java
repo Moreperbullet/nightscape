@@ -50,7 +50,6 @@ public class NSplanets {
 
             allowLaunchToNumbered = false;
             allowWaves = true;
-            allowWaveSimulation = true;
             allowSectorInvasion = false;
             allowLaunchSchematics = false;
             enemyCoreSpawnReplace = true;
@@ -125,7 +124,6 @@ public class NSplanets {
 
             allowLaunchToNumbered = false;
             allowWaves = true;
-            allowWaveSimulation = true;
             allowSectorInvasion = false;
             allowLaunchSchematics = false;
             enemyCoreSpawnReplace = true;

@@ -4,6 +4,7 @@ import arc.math.Mathf;
 import arc.util.Strings;
 import mindustry.content.Fx;
 import mindustry.entities.Effect;
+import mindustry.entities.units.*;
 import mindustry.gen.Unit;
 import mindustry.type.StatusEffect;
 import mindustry.world.meta.Stat;
@@ -28,7 +29,7 @@ public class DamageFactorsStatus extends StatusEffect {
         }
     }
 
-    public void update(Unit unit, float time) {
+    public void update(Unit unit, StatusEntry entry) {
         if(unit.damaged()){
             unit.damageContinuousPierce(damageAdd);
             if(Mathf.chance(0.1f)){damagedFx.at(unit.x, unit.y);}
