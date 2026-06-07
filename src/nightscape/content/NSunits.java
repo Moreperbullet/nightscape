@@ -363,7 +363,7 @@ public class NSunits {
 
                 recoil = 3f;
                 recoilTime = 50f;
-                shootSound = Sounds.shootSalvi;
+                shootSound = Sounds.shootSalvo;
                 soundPitchMax = 0.8f;
                 soundPitchMin = 0.7f;
 
@@ -809,7 +809,7 @@ public class NSunits {
             lowAltitude = true;
             loopSound = Sounds.loopMissileTrail;
             loopSoundVolume = 0.6f;
-            deathSound = Sounds.largeExplosion;
+            deathSound = Sounds.explosionMissile;
             targetAir = true;
             fogRadius = 3f;
             health = 125;
@@ -1035,7 +1035,7 @@ public class NSunits {
                 shootY = -0.4f;
                 recoilTime = 60;
                 bullet = new BulletType() {{
-                    shootSound = Sounds.shootLancershoot;
+                    shootSound = Sounds.shootLaser;
                     shootEffect = Fx.sparkShoot;
                     hitEffect = Fx.pointHit;
                     color = Color.valueOf("d297e1");
@@ -1350,7 +1350,7 @@ public class NSunits {
             weapons.add(new Weapon(name + "-flame"){{
                 top = false;
                 x = 8.4f;
-                shootSound = Sounds.flame;
+                shootSound = Sounds.shootFlame;
                 reload = 8f;
                 recoil = 1f;
                 ejectEffect = Fx.none;
@@ -1420,7 +1420,7 @@ public class NSunits {
             weapons.add(new Weapon(name + "-spray"){{
                 x = 9f;
                 y = 0f;
-                shootSound = Sounds.flame;
+                shootSound = Sounds.shootFlame;
                 reload = 5;
                 recoil = 1;
                 top = false;
@@ -2076,7 +2076,7 @@ public class NSunits {
                 ejectEffect = Fx.none;
                 recoil = 2f;
                 rotate = true;
-                shootSound = Sounds.shootLancershoot;
+                shootSound = Sounds.shootLaser;
                 controllable = false;
                 autoTarget = true;
                 bullet = new LaserBoltBulletType(5.2f, 13) {{

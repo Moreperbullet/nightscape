@@ -54,7 +54,7 @@ public class NSBpower {
             heatOutput = 1f;
             squareSprite = false;
             regionRotated1 = 1;
-            ambientSound = Sounds.hum;
+            ambientSound = Sounds.loopHum;
             consumeLiquid(Liquids.ozone, 1.5f/60);
         }};
 
@@ -70,7 +70,7 @@ public class NSBpower {
             size = 3;
             regionRotated1 = 1;
             squareSprite = false;
-            ambientSound = Sounds.hum;
+            ambientSound = Sounds.loopHum;
             consumePower(1f);
             researchCost = ItemStack.with(NSitems.tantalum, 1850, NSitems.velonium, 550, silicon, 750);
 
@@ -92,7 +92,7 @@ public class NSBpower {
             liquidCapacity = 40f;
             rotateDraw = false;
             regionRotated1 = 1;
-            ambientSound = Sounds.hum;
+            ambientSound = Sounds.loopHum;
             consumeLiquid(Liquids.slag, 12f / 60f);
             heatOutput = 3f;
 
@@ -142,7 +142,7 @@ public class NSBpower {
             researchCost = ItemStack.with(NSitems.tantalum, 350, NSitems.zirconium, 280, silicon, 30);
 
             generateEffect = Fx.generatespark;
-            ambientSound = Sounds.smelter;
+            ambientSound = Sounds.loopSmelter;
             ambientSoundVolume = 0.06f;
 
             consumeItem(NSitems.naturit);

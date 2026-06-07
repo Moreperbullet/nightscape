@@ -21,6 +21,6 @@ public class ArmorStatus extends StatusEffect {
         if(entry.time > 1) {
             unit.armor = unit.armor + armorAdd;
         }
-        super.update(unit, time);
+        super.update(unit, entry);
     }
 }

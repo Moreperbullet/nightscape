@@ -341,7 +341,7 @@ public class NSBturret {
             shootY = 0.7f;
             ammoUseEffect = Fx.none;
             xRand = 3f;
-            shootSound = Sounds.shootAlt;
+            shootSound = Sounds.shootBreach;
             range = 190;
             health = 520;
             smokeEffect = new Effect(25f, e -> {
@@ -382,7 +382,7 @@ public class NSBturret {
             recoil = 0.3f;
             recoilTime = 30;
             recoilPow = 3;
-            shootSound = Sounds.shootAlt;
+            shootSound = Sounds.shootBreach;
             soundPitchMin = 1.5f;
             soundPitchMax = 1.75f;
             range = 110;

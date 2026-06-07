@@ -60,7 +60,7 @@ public class NSBenvironment {
             statusDuration = 120f;
             speedMultiplier = 0.48f;
             cacheLayer = CacheLayer.mud;
-            walkSound = Sounds.mud;
+            walkSound = Sounds.stepMud;
             isLiquid = true;
             walkSoundVolume = 0.08f;
             walkSoundPitchMin = 0.4f;
