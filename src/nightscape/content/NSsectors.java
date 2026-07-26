@@ -20,7 +20,7 @@ public class NSsectors {
             startWaveTimeMultiplier = 120/100f;
         }};
 
-        wasteland = new SectorPreset("wasteland", Chorda, 23){{
+        wasteland = new SectorPreset("wasteland-chorda", Chorda, 23){{
             difficulty = 4;
             captureWave = 23;
             startWaveTimeMultiplier = 1.3f;
