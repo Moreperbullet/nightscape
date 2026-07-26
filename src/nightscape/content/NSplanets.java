@@ -71,7 +71,7 @@ public class NSplanets {
             ruleSetter = r -> {
                 r.waveTeam = NSTeams.sanc;
                 r.placeRangeCheck = false;
-                r.showSpawns = true;
+                r.hideSpawns = false;
                 r.fog = true;
                 r.coreIncinerates = true;
                 r.staticFog = true;
@@ -142,7 +142,7 @@ public class NSplanets {
             ruleSetter = r -> {
                 r.waveTeam = Team.malis;
                 r.placeRangeCheck = false;
-                r.showSpawns = true;
+                r.hideSpawns = false;
                 r.fog = true;
                 r.coreIncinerates = true;
                 r.weather.add(
